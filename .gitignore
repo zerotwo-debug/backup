@@ -1,0 +1,74 @@
+﻿# ============ 依赖目录 ============
+node_modules/
+.pnpm-store/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.conda/
+*.egg-info/
+.eggs/
+
+# ============ 构建产物 ============
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.o
+*.obj
+*.class
+*.jar
+*.war
+*.so
+*.dylib
+
+# ============ 缓存与日志 ============
+*.log
+logs/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.turbo/
+coverage/
+.nyc_output/
+*.tmp
+*.temp
+
+# ============ IDE 与系统文件 ============
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============ 环境与密钥（请勿提交）============
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+
+# ============ 大型数据 / 模型权重（按需调整）============
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pb
+*.safetensors
+data/raw/
+datasets/
+
+# 说明：以上为通用规则，若某个备份项目确实需要跟踪其中的文件，
+# 在该项目目录内新增 .gitignore 或使用 `git add -f <文件>` 覆盖。
