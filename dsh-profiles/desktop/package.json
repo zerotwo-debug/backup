@@ -5,10 +5,10 @@
     "billion-context": "0.1.173",
     "dsh-ai4scholar": "0.3.7",
     "dsh-better-sidebar": "0.24.1",
-    "dsh-context": "0.58.0",
+    "dsh-context": "0.60.0",
     "dsh-mindmap": "0.15.0",
     "dsh-vision-router": "2.2.8",
-    "dsh-whale-widget": "0.3.16",
+    "dsh-whale-widget": "0.3.17",
     "dshmarket": "1.66.5"
   },
   "dsh": {

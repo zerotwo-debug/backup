@@ -7,3 +7,5 @@ minimumReleaseAgeExclude:
   - dshmarket@1.66.5
   - dsh-vision-router@2.2.8
   - billion-context@0.1.173
+  - dsh-context@0.60.0
+  - dsh-whale-widget@0.3.17
