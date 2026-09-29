@@ -1,0 +1,32 @@
+{
+  "name": "dsh-profile-web",
+  "private": true,
+  "dependencies": {
+    "billion-context": "0.1.164",
+    "dsh-ai4scholar": "^0.3.7",
+    "dsh-better-sidebar": "^0.22.1",
+    "dsh-context": "^0.58.0",
+    "dsh-mindmap": "^0.14.1",
+    "dsh-vision-router": "2.2.5",
+    "dsh-whale-widget": "^0.3.16",
+    "dshmarket": "^1.66.3"
+  },
+  "dsh": {
+    "profile": {
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-web-app",
+        "dshmarket",
+        "dsh-mindmap",
+        "dsh-context",
+        "dsh-ai4scholar",
+        "dsh-vision-router",
+        "dsh-better-sidebar",
+        "billion-context",
+        "@deepseek-ai/dsh-experimental-agent-team-profile",
+        "dsh-whale-widget"
+      ],
+      "patchReload": "live"
+    }
+  }
+}

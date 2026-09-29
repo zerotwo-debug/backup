@@ -1,0 +1,11 @@
+packages:
+  - .
+
+nodeLinker: hoisted
+autoInstallPeers: false
+minimumReleaseAgeExclude:
+  - dsh-context@0.57.0 || 0.58.0
+  - dsh-vision-router@2.2.5
+  - dsh-better-sidebar@0.22.0 || 0.22.1
+  - dshmarket@1.66.3
+  - billion-context@0.1.163 || 0.1.164
