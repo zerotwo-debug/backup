@@ -2,7 +2,7 @@
   "name": "dsh-profile-web",
   "private": true,
   "dependencies": {
-    "billion-context": "0.1.164",
+    "billion-context": "0.1.173",
     "dsh-ai4scholar": "^0.3.7",
     "dsh-better-sidebar": "^0.22.1",
     "dsh-context": "^0.58.0",

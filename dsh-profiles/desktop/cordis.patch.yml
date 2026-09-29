@@ -20,3 +20,8 @@
     purpose: null
     process: standard
     completion: api-key
+- id: vision-router
+  name: dsh-vision-router
+  config:
+    progressiveTools: false
+    onboardingSeen: true

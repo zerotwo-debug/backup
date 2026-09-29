@@ -3,3 +3,7 @@ packages:
 
 nodeLinker: hoisted
 autoInstallPeers: false
+minimumReleaseAgeExclude:
+  - dshmarket@1.66.5
+  - dsh-vision-router@2.2.8
+  - billion-context@0.1.173

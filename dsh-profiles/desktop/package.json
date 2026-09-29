@@ -1,12 +1,29 @@
 {
   "name": "dsh-profile-desktop",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "billion-context": "0.1.173",
+    "dsh-ai4scholar": "0.3.7",
+    "dsh-better-sidebar": "0.24.1",
+    "dsh-context": "0.58.0",
+    "dsh-mindmap": "0.15.0",
+    "dsh-vision-router": "2.2.8",
+    "dsh-whale-widget": "0.3.16",
+    "dshmarket": "1.66.5"
+  },
   "dsh": {
     "profile": {
       "bundles": [
         "@deepseek-ai/dsh-base",
-        "@deepseek-ai/dsh-web-app"
+        "@deepseek-ai/dsh-web-app",
+        "dsh-whale-widget",
+        "dsh-context",
+        "dsh-ai4scholar",
+        "billion-context",
+        "dsh-mindmap",
+        "dsh-better-sidebar",
+        "dshmarket",
+        "dsh-vision-router"
       ]
     }
   }
